@@ -1,1 +1,18 @@
-# programacaoC
+#include <stdio.h>
+
+int main(){
+    char estado[30];
+    char cidade[30];
+
+    printf("Estado:");
+    scanf("%[^\n]",estado);
+
+    printf("Cidade:");
+    scanf("%[^\n]",cidade);
+
+    printf("\n---Carta---\n");
+    printf("Estado:%s\n",estado);
+    printf("Estado:%s\n",cidade);
+    return 0;
+    
+}
